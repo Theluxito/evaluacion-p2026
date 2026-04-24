@@ -1,3 +1,174 @@
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+}
+img {
+  max-width: 100%;
+}
+
+.barra {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+}
+
+.navbar-items {
+}
+
+.navbar li a {
+  color: #003366;
+  margin-right: 2rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-brand {
+  width: 10rem;
+  height: 10rem;
+}
+
+.contenedor {
+  width: 120rem;
+  margin: 0 auto;
+}
+
+.nav-text {
+  color: #003366;
+  text-decoration: none;
+  background-color: #ffaa00;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.banner-container {
+  background-image: url(../img/banner.png);
+  height: 60rem;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-items{
+  align-items: start;
+}
+
+.text-01{
+  color: #FFAA00;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.banner-items h1{
+  color: white;
+
+}
+.banner-items h2{
+  color: #A3D9A5;
+}
+
+.text-02{
+  color: white;
+}
+
+.banner-container a{
+  text-decoration: none;
+  margin-top: 2rem;
+}
+
+.cotizacion{
+  margin-right: 2rem;
+  color: #003366;
+  background-color: #FFAA00;
+  padding: 1rem;
+  border-radius: 2rem;
+  font-weight: bold;
+}
+
+.servicios{
+  color: white;
+}
+
+.nosotros{
+  width: 120rem;
+  display: flex ;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.nosotros-text{
+  
+}
+
+.nosotros-title{
+  color: #FFAA00;
+  font-weight: bold; 
+  text-transform: uppercase;
+}
+
+.nosotros h2{
+    color: #003366;
+
+}
+
+.nosotros-img img{
+  border-radius: 2rem;
+}
+
+.footer{
+  display: flex;  
+  flex-direction: column;
+  background-color: #003366;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  border-bottom: solid .1rem white;
+  padding-bottom: 2rem;
+}
+
+.footer-title h2{
+  color: #FFAA00;
+}
+.footer-title p{
+  color: white;
+}
+.footer-links{
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.footer-links a{
+  color: white;
+  text-decoration: none;
+  margin-top: .5rem;
+}
+.footer-items{
+  margin-right: 2rem;
+}
+
+.footer-contact{
+  color: white;
+}
+
+.copy{
+  text-align: center;
+  color: white;
 }
