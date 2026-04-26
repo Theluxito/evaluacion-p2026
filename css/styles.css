@@ -172,3 +172,202 @@ nav {
   text-align: center;
   color: white;
 }
+
+
+
+.contenedor-valores{
+  background-color: #003366;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-items: start; */
+  box-sizing: border-box;
+  padding: 2rem 30rem;
+  height: 40rem;
+}
+
+.cards{
+  display: flex;
+  /* justify-content: space-between;; */
+  /* padding: 2rem; */
+  /* margin: 0 auto; */
+  box-sizing: border-box;
+}
+
+.card{
+  background-color: white;
+  border-radius: 2rem;
+  padding: 2rem;
+  margin: 1rem;
+  box-sizing: border-box;
+}
+
+.valores-text p{
+  color: #FFAA00;
+}
+
+.valores-text h2{
+  color: white;
+}
+
+.cards span{
+  color: #FFAA00;
+  font-weight: bold;
+}
+.cards h3{
+  color: #003366; 
+}
+.valores-text{
+  margin-top: 1rem;
+}
+
+.servicios-container{
+  /* background-color: green; */
+  padding: 2rem 30rem;
+}
+
+.servicios-titulo{
+  color: #FFAA00;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.servicios-text/*  */ h2{
+  color: #003366;
+}
+  
+.cards-services-container{
+  /* background-color: white; */
+  display: flex;
+}
+
+.cards-services{
+  border: solid .1rem black;
+  border-radius: 2rem;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.cards-services div{
+  background-color: #A3D9A5;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.6rem;
+}
+
+.cards-services h3{
+  color: #003366;
+}
+.cards-services ul li{
+  margin-top: 1rem;
+}
+
+.cobertura-container{
+  background-color: #D9D9D9;
+  padding: 2rem 30rem;
+}
+
+.cobertura-contenido{
+  display: flex;
+}
+.cobertura-titulo{
+  color: #FFAA00;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+.cobertura-01, .cobertura-02{
+  margin: 1rem;
+}
+.cobertura-01 h2{
+  color: #003366;
+}
+
+.cobertura-02{
+  background-color: white;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+.cobertura-02 h3{
+  color: #003366;
+}
+
+.cobertura-02 span{
+  background-color: #003366;
+  color: white;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  flex: 0 0 calc(100%/5);
+  margin: .3rem;
+  text-align: center;
+}
+.ciudades{
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.contacto-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 40rem;
+}
+
+.contacto-titulo{
+  color: #FFAA00;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.contacto-01 h2{
+  color: #003366;
+}
+.datos-contacto{
+  background-color: #D9D9D9;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.formulario-contacto{
+  display: flex;
+  flex-direction: column;
+  border: solid .1rem black ;
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 40rem;
+}
+
+.formulario-contacto div{
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario-contacto div label{
+  color: #003366;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+.formulario-contacto div input{
+  padding: .8rem;
+  border-radius: .8rem;
+  border: solid .1rem black;
+}
+
+.formulario-contacto button{
+  background-color: #FFAA00;
+  color: #003366;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: none;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.formulario-contacto div textarea{
+  padding: .5rem;
+  border-radius: .8rem;
+}
